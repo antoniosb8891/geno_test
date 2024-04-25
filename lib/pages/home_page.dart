@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage>
     super.initState();
 
     SchedulerBinding.instance.addPostFrameCallback((_) {
-      // context.read<DataService>().getPrice();
+      context.read<DataService>().getPrice();
     });
   }
 
